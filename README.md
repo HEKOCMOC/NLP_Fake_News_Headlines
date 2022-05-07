@@ -7,12 +7,12 @@
 Необходимо скопировать файл `test.tsv`, переименовать его в predictions.tsv и заполнить колонку `is_fake` значениями предсказания модели, аналогично `train.tsv`. 
 Изначально колонка заполнена значением 0.
 ## Результаты
-index |	classifier |	results
---- | --- | ---
-0 |	PassiveAggressiveClassifier	| 0.827257
-2	| Logistic Regression	| 0.845486
-3	| Linear SVC |	0.854167
-1 |	MultinomialNB (Naive Bayes) |	0.855903
+classifier |	results
+--- | ---
+PassiveAggressiveClassifier	| 0.827257
+Logistic Regression	| 0.845486
+Linear SVC |	0.854167
+MultinomialNB (Naive Bayes) |	0.855903
 
 ## Что можно добавить
 - реализовать пайлайн
